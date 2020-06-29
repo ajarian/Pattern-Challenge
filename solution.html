@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Adrian's Solution</title>
+    </head>
+<body>
+    <style>
+        .text-area {
+            width: 300px;
+            height: 250px;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="pattern-challenge.js">
+    </script>
+    <div>
+        <label>At what step (n) should the pattern stop?</label>
+        <br>
+        <input
+            id="pattern-input"
+            placeholder="Enter value"
+        >
+        </input>
+        <input 
+            id="run-button" 
+            type="button"
+            value="RUN" 
+            onclick="onClick()"
+        >
+        </input>
+    </div>
+    <div>
+        <textarea
+            class="text-area"
+            name="text-area"
+            id="text-area"
+            readonly="true"
+        >
+        </textarea>
+    </div>
+</body>
+
+</html>
